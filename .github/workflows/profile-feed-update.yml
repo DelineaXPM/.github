@@ -1,0 +1,28 @@
+---
+name: profile-feed-update
+on:
+  schedule: # Run workflow automatically
+    - cron: '0 */23 * * *' # At minute 0 past every 8th hour. https://crontab.guru/#0_*/8_*_*_*
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+  actions: write
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest releases
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gautamkrishnar/blog-post-workflow@8a4ff29877f5c942fc6a66f02710c3729d205aea # renovate tag=v1.8.2
+        with:
+          readme_path: profile/README.md
+          feed_list: 'https://github.com/DelineaXPM/dsv-cli/releases.atom,https://github.com/DelineaXPM/ansible-core-collection/releases.atom'
+          max_post_count: 15
+          template: '<tr><td>$date</td><td><a href="$url">$title</a></td></tr>$newline'
+          tag_post_pre_newline: true
+          date_format: UTC:yyyy-mm
+          title_max_length: 75
+          commit_message: 'ci: 🤖 refresh feed content'
