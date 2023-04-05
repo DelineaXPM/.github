@@ -15,6 +15,7 @@ We invite you to explore our repository and discover how Delinea can help you ma
     <th>update</th>
   </tr>
 <!-- BLOG-POST-LIST:START -->
+<tr><td>2023-04</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.40.3">dsv-cli-v1.40.3</a></td></tr>
 <tr><td>2023-03</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.40.2">dsv-cli-v1.40.2</a></td></tr>
 <tr><td>2023-02</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.40.1">dsv-cli-v1.40.1</a></td></tr>
 <tr><td>2023-02</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.40.0">dsv-cli-v1.40.0</a></td></tr>
@@ -24,7 +25,6 @@ We invite you to explore our repository and discover how Delinea can help you ma
 <tr><td>2023-01</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.39.9">dsv-cli-v1.39.9</a></td></tr>
 <tr><td>2022-12</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.39.8">dsv-cli-v1.39.8</a></td></tr>
 <tr><td>2022-12</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.39.6">dsv-cli-v1.39.6</a></td></tr>
-<tr><td>2022-12</td><td><a href="https://github.com/DelineaXPM/dsv-cli/releases/tag/v1.39.5">dsv-cli - v1.39.5</a></td></tr>
 
 <!-- BLOG-POST-LIST:END -->
 </table>
