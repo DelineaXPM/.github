@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
-      - uses: gautamkrishnar/blog-post-workflow@ccb6032125dc5032b8b4f70a355479a3d76902f4 # renovate tag=v1.8.2
+      - uses: gautamkrishnar/blog-post-workflow@ee8b54207f9e35104dfa2a17c4b016bf4666957a # renovate tag=v1.8.2
         with:
           readme_path: profile/README.md
           feed_list: 'https://github.com/DelineaXPM/dsv-cli/releases.atom,https://github.com/DelineaXPM/ansible-core-collection/releases.atom'
